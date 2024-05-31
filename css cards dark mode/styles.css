@@ -56,13 +56,17 @@ body {
 }
 
 .card button {
-    border: 1px solid #f8f8f8;
+    border: 2px solid #f8f8f8;
     background: transparent;
     color: #f8f8f8;
     font-family: inherit;
     padding: 16px 26px;
     font-size: 16px;
     border-radius: 40px;
+}
+
+.card button:hover {
+    background: #221d2d;
 }
 
 @media (width <=600px) {
