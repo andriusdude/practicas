@@ -96,3 +96,8 @@ footer {
 .footer-nav>div li:hover {
     opacity: 0.5;
 }
+
+.footer-copyright {
+    display: flex;
+    flex-wrap: wrap;
+}
