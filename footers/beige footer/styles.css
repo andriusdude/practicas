@@ -16,5 +16,30 @@ body {
 }
 
 footer {
-    width: ;
+    width: 100%;
+    background-color: #fffce1;
 }
+
+input,
+a,
+button,
+li {
+    all: unset;
+    font: inherit;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+footer {
+    padding: 3.5rem clamp(3rem, 6vw, 14rem);
+}
+
+.footer-wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+/* https://www.instagram.com/p/C2FCLFLBPI_/?img_index=6 */
