@@ -42,4 +42,29 @@ footer {
     margin: 0 auto;
 }
 
-/* https://www.instagram.com/p/C2FCLFLBPI_/?img_index=6 */
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer-subscribe {
+    max-width: clamp(20rem, 33vw, 33rem);
+}
+
+.footer-subscribe>h2 {
+    font-size: clamp(1.5rem, 2.3vw, 2.25rem);
+}
+
+.input-box {
+    display: flex;
+    max-width: 100%;
+    padding-block: 1rem;
+    border-bottom: 1px solid black;
+    margin-top: 3rem;
+}
+
+.input-box>input {
+    flex-grow: 1;
+}
