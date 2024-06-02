@@ -52,4 +52,10 @@ body {
     transform: scale(1.15);
 }
 
+.social-media-button:hover:nth-child(1) {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%,
+            #fdf497 5%, #fd5949 45%,
+            #d6249f 60%, #285AEB 90%);
+}
+
 /* https://www.instagram.com/p/C19Q5qbNbls/?img_index=4 */
