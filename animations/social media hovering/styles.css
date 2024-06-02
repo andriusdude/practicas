@@ -58,4 +58,20 @@ body {
             #d6249f 60%, #285AEB 90%);
 }
 
+.social-media-button:hover:nth-child(2) {
+    background-color: var(--white);
+}
+
+.social-media-button:hover:nth-child(2) svg {
+    stroke: var(--x);
+}
+
+.social-media-button:hover:nth-child(3) {
+    background-color: var(--youtube);
+}
+
+.social-media-button:hover:nth-child(4) {
+    background-color: var(--linkedin);
+}
+
 /* https://www.instagram.com/p/C19Q5qbNbls/?img_index=4 */
