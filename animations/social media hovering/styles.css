@@ -44,4 +44,12 @@ body {
     transition: all 0.3s;
 }
 
+.social-media-button img {
+    transition: all 0.3s;
+}
+
+.social-media-button:hover img {
+    transform: scale(1.15);
+}
+
 /* https://www.instagram.com/p/C19Q5qbNbls/?img_index=4 */
