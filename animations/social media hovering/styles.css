@@ -19,4 +19,11 @@ body {
     height: 100vh;
 }
 
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
 /* https://www.instagram.com/p/C19Q5qbNbls/?img_index=4 */
