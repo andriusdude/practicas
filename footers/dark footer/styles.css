@@ -161,3 +161,19 @@ footer .bottom-details .bottom_text {
 .bottom-details .bottom_text a {
     margin-right: 10px;
 }
+
+@media (max-width: 700px) {
+    footer .content .link-boxes {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    footer .content .link-boxes .input-box {
+        width: 40%;
+        margin-top: 10px;
+    }
+}
