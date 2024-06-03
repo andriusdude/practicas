@@ -12,3 +12,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    background: #111;
+    width: 100%;
+}
