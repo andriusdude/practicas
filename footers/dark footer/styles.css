@@ -17,3 +17,8 @@ footer {
     background: #111;
     width: 100%;
 }
+
+header {
+    min-height: 10vh;
+    background: lightcyan;
+}
