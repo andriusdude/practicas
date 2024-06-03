@@ -22,3 +22,8 @@ header {
     min-height: 10vh;
     background: lightcyan;
 }
+
+article {
+    flex: 1;
+    min-height: 10vh;
+}
