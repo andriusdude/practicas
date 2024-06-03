@@ -28,6 +28,11 @@ footer .content .top {
     margin-bottom: 10px;
 }
 
+.content .top .logo-details {
+    color: #fff;
+    font-size: 30px;
+}
+
 header {
     min-height: 10vh;
     background: lightcyan;
