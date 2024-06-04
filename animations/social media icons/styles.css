@@ -21,3 +21,8 @@ body {
     place-items: center;
     background: #000;
 }
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+}
