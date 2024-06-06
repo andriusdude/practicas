@@ -137,3 +137,21 @@ ul li {
 ul li img {
     width: 16px;
 }
+
+.card button {
+    display: grid;
+    place-items: center;
+    min-width: 200px;
+    padding: 14px 0;
+    border-radius: 6px;
+    border: 2px solid #4087ed;
+    background: transparent;
+    color: #4087ed;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.card button.btn-primary {
+    background: #4087ed;
+    color: #f7f7f7;
+}
