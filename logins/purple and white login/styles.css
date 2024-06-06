@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    100% {
+        background-position: 25% 50%;
+    }
+}
+
+
+
+/* https://www.instagram.com/p/Cx8WA4etKcx/?img_index=5 */
