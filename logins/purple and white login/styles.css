@@ -26,4 +26,31 @@ body {
     }
 }
 
+.login {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 90%;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    text-align: center;
+}
+
+@media (width >=680px) {
+    .login {
+        top: 0;
+        right: 0;
+        left: auto;
+        translate: 0 0;
+        margin: 0;
+        height: 100%;
+        width: 50%;
+        border-radius: 0;
+        padding-top: 240px;
+    }
+}
+
 /* https://www.instagram.com/p/Cx8WA4etKcx/?img_index=5 */
