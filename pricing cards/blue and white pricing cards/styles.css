@@ -34,3 +34,22 @@ body {
     background: #1e1e1e;
     font-size: 125%;
 }
+
+.primary {
+    order: -1;
+}
+
+.primary .card var {
+    font-size: 60px;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.grid>div {
+    width: 100%;
+}
