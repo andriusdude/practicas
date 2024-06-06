@@ -53,4 +53,32 @@ body {
     }
 }
 
+.login>img {
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.login>h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 30px;
+}
+
+.login>h3 {
+    color: rgb(0 0 0 / 38%);
+    margin: 0 0 6px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-form {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    width: 100%;
+    margin: 0;
+}
+
 /* https://www.instagram.com/p/Cx8WA4etKcx/?img_index=5 */
