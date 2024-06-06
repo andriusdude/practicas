@@ -10,7 +10,7 @@ body {
     height: 100vh;
     padding: 0 32px;
     background: #eff9ff;
-    font-family: "Euclid Circular A", "Poppins";
+    font-family: "Roboto", sans-serif;
 }
 
 @media (width >=500px) {
