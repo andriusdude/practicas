@@ -43,7 +43,28 @@ body {
     box-shadow: 0 100px 100px rgb(0, 0, 0 / 10%);
 }
 
+.card::before {
+    content: "";
+    position: absolute;
+    top: -880px;
+    left: 50%;
+    translate: -50% 0;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background: #216ce7;
+}
+
+.background::after {
+    content: "";
+    position: inherit;
+    right: -50vmin;
+    bottom: -55vmin;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: #143d81;
+}
 
 
-
-/* https: //www.instagram.com/p/C3A8xcGNvfa/?img_index=4 */
+/* https: //www.instagram.com/p/C3A8xcGNvfa/?img_index=5 */
