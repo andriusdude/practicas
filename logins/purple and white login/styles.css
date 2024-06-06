@@ -8,6 +8,16 @@
     }
 }
 
-
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    padding: 0 24px;
+    background-color: #5F50FD;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
 
 /* https://www.instagram.com/p/Cx8WA4etKcx/?img_index=5 */
