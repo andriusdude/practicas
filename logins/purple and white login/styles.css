@@ -20,4 +20,10 @@ body {
     color: #000;
 }
 
+@media (width >=500px) {
+    body {
+        padding: 0;
+    }
+}
+
 /* https://www.instagram.com/p/Cx8WA4etKcx/?img_index=5 */
