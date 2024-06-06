@@ -83,3 +83,23 @@ body {
         top: -25vh;
     }
 }
+
+@media (width >=980px) {
+    .grid {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid>div {
+        height: auto;
+    }
+
+    .primary {
+        order: 0;
+        grid-column: auto;
+    }
+
+    .background {
+        top: -100px;
+    }
+}
