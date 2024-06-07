@@ -4,11 +4,14 @@
 
 body {
     display: grid;
-    place-items: center;
-    padding: 60px 15%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0;
     margin: 0;
-    color: #f7f7f7;
-    background: #121212;
+    color: #36393f;
+    background: #ecf4ff;
     font-family: "Euclid Circular A", "Poppins";
 }
 
@@ -20,24 +23,26 @@ body {
     right: -100px;
     height: 60vmax;
     rotate: -4deg;
-    background: #4f97ff;
+    background: #0f71ff;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     gap: 10px;
-    border-radius: 12px;
-    padding: 50px 50px 70px;
-    background: #1e1e1e;
-    font-size: 125%;
+    order: 2;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 50px;
+    background: #ffffff;
 }
 
-.primary {
-    order: -1;
+.card .primary {
+    order: 1;
 }
+
+/* here */
 
 .primary .card var {
     font-size: 60px;
