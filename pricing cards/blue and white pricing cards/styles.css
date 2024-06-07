@@ -82,6 +82,10 @@ h2 {
     margin: 0;
 }
 
+p {
+    margin-left: 6px;
+}
+
 .card var {
     color: #0f71ff;
     font-weight: 400;
