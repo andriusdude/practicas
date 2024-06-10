@@ -61,6 +61,17 @@ section.bottom {
     text-align: center;
 }
 
+section h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-title);
+}
+
+section p {
+    margin: 0;
+}
+
 
 
 
