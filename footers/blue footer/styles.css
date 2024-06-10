@@ -85,6 +85,27 @@ section p {
     margin-right: 10px;
 }
 
+section.top .socials {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    translate: -50% 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 56px;
+}
+
+section.top .socials>a {
+    font-size: 20px;
+    background: rgb(45 118 232 / 25%);
+    color: var(--color-title);
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
 
 
 
