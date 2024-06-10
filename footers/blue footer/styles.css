@@ -72,6 +72,21 @@ section p {
     margin: 0;
 }
 
+.legal>a {
+    margin: 0 0 0 4px;
+}
+
+.legal,
+.copyright {
+    font-size: 12px;
+}
+
+.legal>span {
+    margin-right: 10px;
+}
+
+
+
 
 
 
