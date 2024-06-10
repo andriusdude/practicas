@@ -1,13 +1,13 @@
-:root {
-    --color-title: #fff9ff;
-}
-
 body {
     margin: 0;
     background: #0e2953;
     font-family: "Euclid Circular A", "Poppins";
     color: #a0a8bd;
     height: 100vh;
+}
+
+:root {
+    --color-title: #fff9ff;
 }
 
 footer {
@@ -19,31 +19,21 @@ footer {
     padding-top: 60px;
 }
 
+section.top>img {
+    height: 50px;
+    margin: 0 auto 50px;
+}
+
 section {
     position: relative;
     margin: 0 30px;
 }
-
 
 section.top {
     display: grid;
     border-bottom: 2px solid rgb(255 255 255 / 20%);
     padding-bottom: 20px;
 }
-
-section.top>img {
-    height: 50px;
-    margin: 0 auto 50px;
-
-}
-
-section.top .links {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    margin-bottom: 36px;
-}
-
 
 section.bottom {
     display: flex;
@@ -53,6 +43,13 @@ section.bottom {
     gap: 8px;
     padding: 20px 0;
     text-align: center;
+}
+
+section.top .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-bottom: 36px;
 }
 
 .links-column {
@@ -163,12 +160,3 @@ section.top .socials>a {
         display: block;
     }
 }
-
-
-/* 
-
-https: //www.instagram.com/p/C2FccgJtT6r/?img_index=3
-
-https://github.com/frontend-joe/css-footers/blob/main/footer-4/styles.css
-
-*/
