@@ -11,3 +11,7 @@
     font-size: 1rem;
     font-weight: 600;
 }
+
+.flow>*+* {
+    margin-top: var(--flow-space, 1.25em);
+}
