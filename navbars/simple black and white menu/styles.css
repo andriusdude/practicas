@@ -10,7 +10,7 @@
 
 body {
     font-family: "Euclid Circular A", "Poppins";
-    background: #12161f;
+    background: #fff;
     color: white;
     margin: 0;
     height: 94vh;
@@ -20,12 +20,11 @@ body {
 
 nav {
     position: relative;
-    background: #1f2635;
+    background: #18171C;
     font-weight: 400;
     font-size: 0;
     display: flex;
     padding: 0;
-    min-width: 400px;
     max-width: 900px;
 }
 
