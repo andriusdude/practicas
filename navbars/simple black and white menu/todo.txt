@@ -1,3 +1,5 @@
 try to make it look like this 
 
+needs to have border radius on first and last and also hover change color properly
+
 https://www.instagram.com/p/C6d0uqvyj5W/?img_index=2

@@ -26,26 +26,23 @@ nav {
     position: relative;
     background: #18171C;
     display: flex;
-    padding: 0;
-    max-width: 900px;
-    border-radius: 0.6rem;
 }
 
 nav .item:hover {
-    background: #FAFAFA;
-    color: #18171C;
+    background: #E57A44;
+    color: #FAFAFA;
+    border-radius: inherit;
 }
 
 nav .item {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     display: inline-block;
     position: relative;
     cursor: pointer;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    z-index: 5;
-    height: 60px;
-    line-height: 60px;
+    height: 4rem;
     text-align: center;
+    align-content: center;
 }
