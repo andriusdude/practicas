@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: "Euclid Circular A", "Poppins";
+    font-family: "Roboto";
     background: #FAFAFA;
     color: #FAFAFA;
     margin: 0;
@@ -18,24 +18,26 @@ body {
     place-items: center;
 }
 
+.item {
+    font-size: 10px;
+}
+
 nav {
     position: relative;
     background: #18171C;
-    font-weight: 400;
-    font-size: 0;
     display: flex;
     padding: 0;
     max-width: 900px;
 }
 
 nav .item {
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: inline-block;
     position: relative;
-    padding: 0 20px;
     cursor: pointer;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     z-index: 5;
-    min-width: 25%;
     height: 60px;
     line-height: 60px;
     text-align: center;
