@@ -46,3 +46,7 @@ nav .item {
     text-align: center;
     align-content: center;
 }
+
+nav .item:first-child {}
+
+nav .item:last-child {}
