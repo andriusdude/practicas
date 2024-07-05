@@ -45,3 +45,12 @@ nav .item {
 nav:first-child {}
 
 nav .item:last-child {}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}

@@ -6,4 +6,4 @@ https://www.instagram.com/p/C6d0uqvyj5W/?img_index=3
 todo
 
 - border radius on first and last
-- find and link hamburguer menu
+- find and link hamburguer menu (p)
