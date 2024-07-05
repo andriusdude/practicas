@@ -41,9 +41,3 @@ nav .item {
     text-align: center;
     align-content: center;
 }
-
-nav:first-child {}
-
-nav .item:last-child {}
-
-.hamburger {}
