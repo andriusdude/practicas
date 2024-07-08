@@ -41,3 +41,8 @@ nav .item {
     text-align: center;
     align-content: center;
 }
+
+#hamburger {
+    min-width: 150px;
+    padding-right: 85%;
+}
