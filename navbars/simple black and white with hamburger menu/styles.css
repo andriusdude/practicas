@@ -44,5 +44,6 @@ nav .item {
 
 #hamburger {
     min-width: 150px;
-    padding-right: 85%;
+    width: 300px;
+    padding-right: 90%;
 }
