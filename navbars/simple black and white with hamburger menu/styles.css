@@ -2,48 +2,48 @@
     box-sizing: border-box;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 body {
     font-family: "Roboto";
     background: #FAFAFA;
     color: #FAFAFA;
     margin: 0;
-    height: 94vh;
+    height: 100vh;
     display: grid;
     place-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 50%;
+    height: auto;
+    display: inline-block;
+    top: 50%;
 }
 
 .item {
     font-size: 10px;
 }
 
-nav {
-    position: relative;
+nav.menu {
     background: #18171C;
-    display: flex;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
+
 }
 
-nav .item {
+nav>a.item {
     font-size: 1.5rem;
-    font-weight: 500;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
+    font-weight: 600;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     height: 4rem;
     text-align: center;
-    align-content: center;
+
 }
 
 #hamburger {
-    min-width: 150px;
-    width: 300px;
+    min-width: 120px;
+    width: 100px;
     padding-right: 90%;
 }
