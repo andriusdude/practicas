@@ -1,1 +1,1 @@
-create a simple modal that pops up after clicking some button
+create a simple modal that pops up another modal after clicking some button
